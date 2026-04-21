@@ -12,4 +12,4 @@ if not exist "%CSC%" (
     exit /b 1
 )
 
-"%CSC%" /nologo /target:winexe /platform:anycpu /optimize+ /out:"URLPinger.exe" /r:System.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll "UrlPingerApp.cs"
+"%CSC%" /nologo /target:winexe /platform:anycpu /optimize+ /win32icon:"icon.ico" /out:"URLPinger.exe" /r:System.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll "UrlPingerApp.cs"

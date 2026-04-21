@@ -40,6 +40,7 @@ namespace UrlPingerApp
         public MainForm()
         {
             Text = "URL Pinger";
+            Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
             StartPosition = FormStartPosition.CenterScreen;
             Size = new Size(560, 420);
             MinimumSize = new Size(560, 420);
