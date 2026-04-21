@@ -1,0 +1,11 @@
+# Build outputs
+bin/
+obj/
+*.pdb
+
+# Temporary local builds
+URLPinger-new.exe
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
